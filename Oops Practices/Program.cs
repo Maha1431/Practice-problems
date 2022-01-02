@@ -6,7 +6,7 @@ namespace Oops_Practices
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           /* Console.WriteLine("Hello World!");
             Car Ford = new Car();
             Ford.model = "Mustang";
             Ford.color = "red";
@@ -18,7 +18,15 @@ namespace Oops_Practices
             Opel.year = 2005;
 
             Console.WriteLine(Ford.model);
-            Console.WriteLine(Opel.model);
+            Console.WriteLine(Opel.model);*/
+
+            Animal myAnimal = new Animal();  // Create a Animal object
+            Animal myPig = new Pig();  // Create a Pig object
+            Animal myDog = new Dog();  // Create a Dog object
+
+            myAnimal.animalSound();
+            myPig.animalSound();
+            myDog.animalSound();
         }
     }
 }
