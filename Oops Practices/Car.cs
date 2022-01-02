@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Oops_Practices
 {
-    class Car
+     class Car
     {
-    }
+        public string model;
+        public string color;
+        public int year;
+
+    } 
 }
