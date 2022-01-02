@@ -19,6 +19,9 @@ namespace Oops_Practices
 
             Console.WriteLine(Ford.model);
             Console.WriteLine(Opel.model);
+
+            Constructor obj = new Constructor();
+            Console.WriteLine(obj.Model);
         }
     }
 }
